@@ -1,0 +1,10 @@
+E
+E E' T T' F F' P
++ * ( ) ^ a b
+E->T E'
+E'->+ E|ɛ
+T->F T'
+T'->T|ɛ
+F->P F'
+F'->* F'|ɛ
+P->( E )|a|b|^

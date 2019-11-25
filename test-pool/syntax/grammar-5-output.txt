@@ -1,0 +1,9 @@
+First集：{Q=[a, b, c], R=[a, b, c], S=[a, b, c], S'=[a, ɛ]}
+Follow集：{Q=[], R=[], S=[a, #], S'=[a, #]}
+
+预测分析表：
+          a                   b                   c                   #                   
+Q         [a, b]              [b]                 [S, a, b]           null                
+R         [a]                 [S, a]              [S, a]              null                
+S         [a, b, c, S']       [b, c, S']          [c, S']             null                
+S'        [ɛ]                 null                null                [ɛ]                 

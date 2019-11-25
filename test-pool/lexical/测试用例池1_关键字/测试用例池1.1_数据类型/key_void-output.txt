@@ -1,0 +1,17 @@
+#include<stdio.h> 宏定义
+int 关键字
+main 标识符
+( 界符
+) 界符
+{ 界符
+void 关键字
+function 标识符
+( 界符
+) 界符
+{ 界符
+} 界符
+; 界符
+return 关键字
+0 整数
+; 界符
+} 界符

@@ -1,0 +1,11 @@
+First集：{E'=[+, ɛ], T'=[*, ɛ], T=[(, i, ɛ], E=[(, i, +, ɛ], F=[(, i]}
+
+Follow集：{E'=[#, )], T'=[#, ), +], T=[#, ), +], E=[#, )], F=[#, ), *, +]}
+
+预测分析表：
+          #                   (                   )                   i                   *                   +                   
+E'        [ɛ]                 null                [ɛ]                 null                null                [+, T, E']          
+T'        [ɛ]                 null                [ɛ]                 null                [*, F, T']          [ɛ]                 
+T         [ɛ]                 [F, T']             [ɛ]                 [F, T']             null                [ɛ]                 
+E         [T, E']             [T, E']             [T, E']             [T, E']             null                [T, E']             
+F         null                [(, E, )]           null                [i]                 null                null                

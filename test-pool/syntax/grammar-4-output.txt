@@ -1,0 +1,8 @@
+First集：{Expr=[(, id, -], Var=[id], VarTail=[(, ɛ], ExprTail=[ɛ, -]}
+Follow集：{Expr=[#, )], Var=[#, ), -], VarTail=[#, ), -], ExprTail=[#, )]}
+预测分析表：
+          	#                   (                   )                   id                  -                   
+Expr      null                [(, Expr, )]        null                [Var, ExprTail]     [-, Expr]           
+Var       null                null                null                [id, VarTail]       null                
+VarTail   [ɛ]                 [(, Expr, )]        [ɛ]                 null                [ɛ]                 
+ExprTail  [ɛ]                 null                [ɛ]                 null                [-, Expr]           

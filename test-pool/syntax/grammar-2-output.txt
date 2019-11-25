@@ -1,0 +1,8 @@
+First集：{S=[a, (, ^], T'=[ɛ, ,], T=[a, (, ^]}
+Follow集：{S=[#, ), ,], T'=[)], T=[)]}
+
+预测分析表：
+          a                   #                   (                   )                   ,                   ^                   
+S         [a]                 null                [(, T, )]           null                null                [^]                 
+T'        null                null                null                [ɛ]                 [,, S, T']          null                
+T         [S, T']             null                [S, T']             null                null                [S, T']       

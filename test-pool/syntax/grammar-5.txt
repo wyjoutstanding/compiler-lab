@@ -1,0 +1,7 @@
+S
+S S' Q R
+a b c
+S->a b c S'|b c S'|c S'
+S'->a b c S'|ɛ
+Q->S a b|a b|b
+R->S a|a

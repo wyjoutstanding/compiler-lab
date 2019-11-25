@@ -1,0 +1,11 @@
+First集:{P=[a, b, (, ^], F'=[*, ɛ], E'=[+, ɛ], T'=[a, b, (, ɛ, ^], T=[a, b, (, ^], E=[a, b, (, ^], F=[a, b, (, ^]}
+Follow集：{P=[a, b, #, (, ), *, +, ^], F'=[a, b, #, (, ), +, ^], E'=[#, )], T'=[#, ), +], T=[#, ), +], E=[#, )], F=[a, b, #, (, ), +, ^]}
+预测分析表：
+          a                   b                   #                   (                   )                   *                   +                   ^                   
+P         [a]                 [b]                 null                [(, E, )]           null                null                null                [^]                 
+F'        [ɛ]                 [ɛ]                 [ɛ]                 [ɛ]                 [ɛ]                 [*, F']             [ɛ]                 [ɛ]                 
+E'        null                null                [ɛ]                 null                [ɛ]                 null                [+, E]              null                
+T'        [T]                 [T]                 [ɛ]                 [T]                 [ɛ]                 null                [ɛ]                 [T]                 
+T         [F, T']             [F, T']             null                [F, T']             null                null                null                [F, T']             
+E         [T, E']             [T, E']             null                [T, E']             null                null                null                [T, E']             
+F         [P, F']             [P, F']             null                [P, F']             null                null                null                [P, F']             

@@ -1,0 +1,17 @@
+#include<stdio.h> 宏定义
+int 关键字
+main 标识符
+( 界符
+) 界符
+{ 界符
+printf 标识符
+( 界符
+" 界符
+Hello World!\n 字符串
+" 界符
+) 界符
+; 界符
+return 关键字
+0 整数
+; 界符
+} 界符

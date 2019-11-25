@@ -1,0 +1,30 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00000201dc28c566, pid=71080, tid=68072
+#
+# JRE version: Java(TM) SE Runtime Environment (11.0.1+13) (build 11.0.1+13-LTS)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (11.0.1+13-LTS, mixed mode, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# j  cn.nuaa.compiler.syntax.FirstSet1Testt.test1()V+201
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53188,suspend=y,server=n -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:C:\Users\lenovo\.IntelliJIdea2018.2\system\captureAgent\debugger-agent.jar=file:/C:/Users/lenovo/AppData/Local/Temp/capture.props -Dfile.encoding=UTF-8 com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 cn.nuaa.compiler.syntax.FirstSet1Testt,test1
+
+Host: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, 4 cores, 7G,  Windows 10 , 64 bit Build 18362 (10.0.18362.329)
+Time: Sun Nov 24 17:37:53 2019 ?D1��������?����?? elapsed time: 2961 seconds (0d 0h 49m 21s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000201d3f3a800):  JavaThread "main" [_thread_in_Java, id=68072, stack(0x000000c408400000,0x000000c408500000)]
+
+Stack: [0x000000c408400000,0x000000c408500000],  sp=0x000000c4084fe390,  free space=1016k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x00000201dc28c566

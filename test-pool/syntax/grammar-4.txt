@@ -1,0 +1,7 @@
+Expr
+Expr ExprTail Var VarTail
+( ) - id 
+Expr->- Expr|( Expr )|Var ExprTail
+ExprTail->- Expr|ɛ
+Var->id VarTail
+VarTail->( Expr )|ɛ
